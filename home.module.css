@@ -1,0 +1,129 @@
+.container {
+    min-height: 100vh;
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main {
+    padding: 2rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .title {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 3rem;
+  }
+  
+  .description {
+    line-height: 1.5;
+    font-size: 1.5rem;
+    color: #666;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+  }
+  
+  .navLink {
+    color: #0070f3;
+    text-decoration: none;
+  }
+  
+  .section {
+    width: 100%;
+    max-width: 800px;
+    margin: 2rem 0;
+    padding: 2rem 0;
+  }
+  
+  .sectionTitle {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .aboutContent {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }
+  
+  .profileImage {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .skillsList {
+    padding-left: 1.5rem;
+  }
+  
+  .projectsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .projectCard {
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    padding: 1.5rem;
+  }
+  
+  .projectLink {
+    color: #0070f3;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1rem;
+  }
+  
+  .contactForm {
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .formGroup {
+    margin-bottom: 1.5rem;
+  }
+  
+  .formInput, .formTextarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .formTextarea {
+    min-height: 150px;
+  }
+  
+  .submitButton {
+    background: #0070f3;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .footer {
+    width: 100%;
+    height: 100px;
+    border-top: 1px solid #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
