@@ -233,42 +233,42 @@ export default function Portfolio() {
                   title: "E-commerce Platform",
                   description: "Full-featured online store with product management, cart, and checkout system.",
                   technologies: ["Next.js", "React", "Node.js", "MongoDB"],
-                  image: "/project1.jpg"
+                  image: "/q1.JFIF"
                 },
                 {
                   id: 2,
                   title: "Portfolio Website",
                   description: "Responsive portfolio website built with modern web technologies.",
                   technologies: ["Next.js", "Tailwind CSS", "TypeScript"],
-                  image: "/project2.jpg"
+                  image: "/q2.JFIF"
                 },
                 {
                   id: 3,
                   title: "Task Management App",
                   description: "Application to manage personal or team tasks with drag-and-drop interface.",
                   technologies: ["React", "Firebase", "Material UI"],
-                  image: "/project3.jpg"
+                  image: "/q3.JFIF"
                 },
                 {
                   id: 4,
                   title: "Weather Dashboard",
                   description: "Real-time weather information with forecast and location search.",
                   technologies: ["React", "OpenWeather API", "Chart.js"],
-                  image: "/project4.jpg"
+                  image: "/q4.JFIF"
                 },
                 {
                   id: 5,
                   title: "Blog Platform",
                   description: "Content management system for publishing articles with markdown support.",
                   technologies: ["Next.js", "Sanity CMS", "Tailwind CSS"],
-                  image: "/project5.jpg"
+                  image: "/q5.JFIF"
                 },
                 {
                   id: 6,
                   title: "Fitness Tracker",
                   description: "Application to track workouts and nutrition with progress charts.",
                   technologies: ["React Native", "Firebase", "Redux"],
-                  image: "/project6.jpg"
+                  image: "/q6.JFIF"
                 }
               ].map((project) => (
                 <div 
